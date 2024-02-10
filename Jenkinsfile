@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Add Script Shell') {
+      steps {
+        sh 'ls -al'
+      }
+    }
+
   }
 }
