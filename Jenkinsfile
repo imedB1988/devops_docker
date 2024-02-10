@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('Add Script Shell') {
+    stage('Log') {
       steps {
         sh 'ls -al'
       }
